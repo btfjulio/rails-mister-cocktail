@@ -2,6 +2,7 @@
   <% @cocktails.each do |cocktail| %>
     <div class="cocktail">
       <p><%= cocktail.name %></p>
+      <p><%= link_to 'See more', cocktail_path(cocktail) %></p>
     </div>
   <% end %>
 </div>
