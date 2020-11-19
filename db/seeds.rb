@@ -7,7 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'open-uri'
 require 'json'
-require 'pry'
 
 def call_api
   url = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list"
