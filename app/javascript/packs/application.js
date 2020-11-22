@@ -16,3 +16,16 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 import 'bootstrap';
+import $ from "jquery";
+import "slick-carousel";
+
+const addSlick = () => {
+  $('.you-class').slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+}
+
+addSlick()
